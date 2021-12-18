@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests
+@end

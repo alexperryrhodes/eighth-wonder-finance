@@ -1,0 +1,6 @@
+framework module Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests {
+  umbrella header "Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

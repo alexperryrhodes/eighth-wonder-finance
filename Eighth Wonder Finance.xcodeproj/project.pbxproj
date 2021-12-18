@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246F92D0AC1584908E3A8D2D /* Pods_Eighth_Wonder_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3030E82E70815B714004BCB7 /* Pods_Eighth_Wonder_Finance.framework */; };
+		723744FD272C929100E0043D /* ResearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723744FC272C929100E0043D /* ResearchDetailViewController.swift */; };
+		723CFA342729F7E1007D92B1 /* ResearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CFA332729F7E1007D92B1 /* ResearchViewController.swift */; };
+		723CFA362729F86E007D92B1 /* ResearchStockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CFA352729F86E007D92B1 /* ResearchStockCell.swift */; };
+		900BFA552749AAAD00E50C5B /* PortfolioStockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BFA542749AAAD00E50C5B /* PortfolioStockCell.swift */; };
+		9990F8602B706CF37C8C505F /* Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA3C4FCECBC601F07F84FC6 /* Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests.framework */; };
+		DD0F57D564F725D9DD6BF42A /* Pods_Eighth_Wonder_FinanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279439FC8274489B27638EB9 /* Pods_Eighth_Wonder_FinanceTests.framework */; };
+		F54E7BD127263C080056F7BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E7BD027263C080056F7BA /* AppDelegate.swift */; };
+		F54E7BD327263C090056F7BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E7BD227263C090056F7BA /* SceneDelegate.swift */; };
+		F54E7BD827263C090056F7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54E7BD627263C090056F7BA /* Main.storyboard */; };
+		F54E7BDA27263C0E0056F7BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54E7BD927263C0E0056F7BA /* Assets.xcassets */; };
+		F54E7BDD27263C0E0056F7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54E7BDB27263C0E0056F7BA /* LaunchScreen.storyboard */; };
+		F54E7BE827263C0F0056F7BA /* Eighth_Wonder_FinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E7BE727263C0F0056F7BA /* Eighth_Wonder_FinanceTests.swift */; };
+		F54E7BF227263C0F0056F7BA /* Eighth_Wonder_FinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E7BF127263C0F0056F7BA /* Eighth_Wonder_FinanceUITests.swift */; };
+		F54E7BF427263C0F0056F7BA /* Eighth_Wonder_FinanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E7BF327263C0F0056F7BA /* Eighth_Wonder_FinanceUITestsLaunchTests.swift */; };
+		F54E7C01272645CD0056F7BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E7C00272645CD0056F7BA /* LoginViewController.swift */; };
+		F54E7C03272645F70056F7BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E7C02272645F70056F7BA /* HomeViewController.swift */; };
+		F58243F7273859DB004FC193 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = F58243F6273859DB004FC193 /* search.json */; };
+		F58243F92738603F004FC193 /* PublicClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58243F82738603F004FC193 /* PublicClasses.swift */; };
+		F5AA1C82273776510024EECD /* stock_names.json in Resources */ = {isa = PBXBuildFile; fileRef = F5AA1C80273776510024EECD /* stock_names.json */; };
+		F5AA1C83273776510024EECD /* stock_symbols.json in Resources */ = {isa = PBXBuildFile; fileRef = F5AA1C81273776510024EECD /* stock_symbols.json */; };
+		F5AA1C8527377BEB0024EECD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1C8427377BEB0024EECD /* SearchViewController.swift */; };
+		F5DC5AE9272A27A8009BA7E8 /* TradeViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC5AE8272A27A8009BA7E8 /* TradeViewViewController.swift */; };
+		F5DC5AEB272A28BA009BA7E8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC5AEA272A28BA009BA7E8 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F54E7BE427263C0F0056F7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54E7BC527263C080056F7BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54E7BCC27263C080056F7BA;
+			remoteInfo = "Eighth Wonder Finance";
+		};
+		F54E7BEE27263C0F0056F7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54E7BC527263C080056F7BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54E7BCC27263C080056F7BA;
+			remoteInfo = "Eighth Wonder Finance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1B28D7711BF42689DAA99A /* Pods-Eighth Wonder Finance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance.debug.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance/Pods-Eighth Wonder Finance.debug.xcconfig"; sourceTree = "<group>"; };
+		1B9E6F4D7C2B63BA4FBBCAC5 /* Pods-Eighth Wonder FinanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder FinanceTests.debug.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder FinanceTests/Pods-Eighth Wonder FinanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		279439FC8274489B27638EB9 /* Pods_Eighth_Wonder_FinanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eighth_Wonder_FinanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3030E82E70815B714004BCB7 /* Pods_Eighth_Wonder_Finance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eighth_Wonder_Finance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCE54BFC3CDE8F90891A1AB /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47EDAE52F7F99ED753E83EB8 /* Pods-Eighth Wonder Finance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance.debug.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance/Pods-Eighth Wonder Finance.debug.xcconfig"; sourceTree = "<group>"; };
+		4CA3C4FCECBC601F07F84FC6 /* Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621F633949C93320962A7A5B /* Pods-Eighth Wonder FinanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder FinanceTests.release.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder FinanceTests/Pods-Eighth Wonder FinanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		723744FC272C929100E0043D /* ResearchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchDetailViewController.swift; sourceTree = "<group>"; };
+		723CFA332729F7E1007D92B1 /* ResearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchViewController.swift; sourceTree = "<group>"; };
+		723CFA352729F86E007D92B1 /* ResearchStockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchStockCell.swift; sourceTree = "<group>"; };
+		900BFA542749AAAD00E50C5B /* PortfolioStockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioStockCell.swift; sourceTree = "<group>"; };
+		B6F3F77AF919C9CAAFD096B5 /* Pods-Eighth Wonder Finance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance.release.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance/Pods-Eighth Wonder Finance.release.xcconfig"; sourceTree = "<group>"; };
+		CC0DFB2223A0F01F9C59724D /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDFD0E2FA729FB9FC86A3F0F /* Pods-Eighth Wonder FinanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder FinanceTests.debug.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder FinanceTests/Pods-Eighth Wonder FinanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBA7E2C5E1151EF6A801BA7 /* Pods-Eighth Wonder FinanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder FinanceTests.release.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder FinanceTests/Pods-Eighth Wonder FinanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2D5ED9462E6C214529CEE30 /* Pods-Eighth Wonder Finance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance.release.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance/Pods-Eighth Wonder Finance.release.xcconfig"; sourceTree = "<group>"; };
+		F2C018B1E4AB705A711CC1AE /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F54E7BCD27263C080056F7BA /* Eighth Wonder Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eighth Wonder Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54E7BD027263C080056F7BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F54E7BD227263C090056F7BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F54E7BD727263C090056F7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F54E7BD927263C0E0056F7BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54E7BDC27263C0E0056F7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54E7BDE27263C0E0056F7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54E7BE327263C0F0056F7BA /* Eighth Wonder FinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eighth Wonder FinanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54E7BE727263C0F0056F7BA /* Eighth_Wonder_FinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eighth_Wonder_FinanceTests.swift; sourceTree = "<group>"; };
+		F54E7BED27263C0F0056F7BA /* Eighth Wonder FinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eighth Wonder FinanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54E7BF127263C0F0056F7BA /* Eighth_Wonder_FinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eighth_Wonder_FinanceUITests.swift; sourceTree = "<group>"; };
+		F54E7BF327263C0F0056F7BA /* Eighth_Wonder_FinanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eighth_Wonder_FinanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F54E7C00272645CD0056F7BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F54E7C02272645F70056F7BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F58243F6273859DB004FC193 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		F58243F82738603F004FC193 /* PublicClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicClasses.swift; sourceTree = "<group>"; };
+		F5AA1C80273776510024EECD /* stock_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock_names.json; sourceTree = "<group>"; };
+		F5AA1C81273776510024EECD /* stock_symbols.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock_symbols.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		F5AA1C8427377BEB0024EECD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F5DC5AE8272A27A8009BA7E8 /* TradeViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewViewController.swift; sourceTree = "<group>"; };
+		F5DC5AEA272A28BA009BA7E8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F67F5D215F3FAF3726BCB12D /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54E7BCA27263C080056F7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F92D0AC1584908E3A8D2D /* Pods_Eighth_Wonder_Finance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54E7BE027263C0F0056F7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0F57D564F725D9DD6BF42A /* Pods_Eighth_Wonder_FinanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54E7BEA27263C0F0056F7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9990F8602B706CF37C8C505F /* Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CAD26083792BB67535BD9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47EDAE52F7F99ED753E83EB8 /* Pods-Eighth Wonder Finance.debug.xcconfig */,
+				B6F3F77AF919C9CAAFD096B5 /* Pods-Eighth Wonder Finance.release.xcconfig */,
+				F67F5D215F3FAF3726BCB12D /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig */,
+				F2C018B1E4AB705A711CC1AE /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig */,
+				1B9E6F4D7C2B63BA4FBBCAC5 /* Pods-Eighth Wonder FinanceTests.debug.xcconfig */,
+				DEBA7E2C5E1151EF6A801BA7 /* Pods-Eighth Wonder FinanceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C1E96AB16B157DEE25E8DD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B28D7711BF42689DAA99A /* Pods-Eighth Wonder Finance.debug.xcconfig */,
+				E2D5ED9462E6C214529CEE30 /* Pods-Eighth Wonder Finance.release.xcconfig */,
+				CC0DFB2223A0F01F9C59724D /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig */,
+				3FCE54BFC3CDE8F90891A1AB /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig */,
+				CDFD0E2FA729FB9FC86A3F0F /* Pods-Eighth Wonder FinanceTests.debug.xcconfig */,
+				621F633949C93320962A7A5B /* Pods-Eighth Wonder FinanceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F54E7BC427263C080056F7BA = {
+			isa = PBXGroup;
+			children = (
+				F54E7BCF27263C080056F7BA /* Eighth Wonder Finance */,
+				F54E7BE627263C0F0056F7BA /* Eighth Wonder FinanceTests */,
+				F54E7BF027263C0F0056F7BA /* Eighth Wonder FinanceUITests */,
+				F54E7BCE27263C080056F7BA /* Products */,
+				FA3DDD020B6C12502B89C911 /* Frameworks */,
+				3C1E96AB16B157DEE25E8DD8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F54E7BCE27263C080056F7BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54E7BCD27263C080056F7BA /* Eighth Wonder Finance.app */,
+				F54E7BE327263C0F0056F7BA /* Eighth Wonder FinanceTests.xctest */,
+				F54E7BED27263C0F0056F7BA /* Eighth Wonder FinanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54E7BCF27263C080056F7BA /* Eighth Wonder Finance */ = {
+			isa = PBXGroup;
+			children = (
+				F54E7BD627263C090056F7BA /* Main.storyboard */,
+				F54E7BDB27263C0E0056F7BA /* LaunchScreen.storyboard */,
+				F58243F6273859DB004FC193 /* search.json */,
+				F5AA1C80273776510024EECD /* stock_names.json */,
+				F5AA1C81273776510024EECD /* stock_symbols.json */,
+				F54E7BD027263C080056F7BA /* AppDelegate.swift */,
+				F54E7BD227263C090056F7BA /* SceneDelegate.swift */,
+				F54E7C00272645CD0056F7BA /* LoginViewController.swift */,
+				F54E7C02272645F70056F7BA /* HomeViewController.swift */,
+				723CFA332729F7E1007D92B1 /* ResearchViewController.swift */,
+				723CFA352729F86E007D92B1 /* ResearchStockCell.swift */,
+				900BFA542749AAAD00E50C5B /* PortfolioStockCell.swift */,
+				723744FC272C929100E0043D /* ResearchDetailViewController.swift */,
+				F5AA1C8427377BEB0024EECD /* SearchViewController.swift */,
+				F5DC5AE8272A27A8009BA7E8 /* TradeViewViewController.swift */,
+				F5DC5AEA272A28BA009BA7E8 /* ProfileViewController.swift */,
+				F58243F82738603F004FC193 /* PublicClasses.swift */,
+				F54E7BD927263C0E0056F7BA /* Assets.xcassets */,
+				F54E7BDE27263C0E0056F7BA /* Info.plist */,
+			);
+			path = "Eighth Wonder Finance";
+			sourceTree = "<group>";
+		};
+		F54E7BE627263C0F0056F7BA /* Eighth Wonder FinanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				08CAD26083792BB67535BD9C /* Pods */,
+				F54E7BE727263C0F0056F7BA /* Eighth_Wonder_FinanceTests.swift */,
+			);
+			path = "Eighth Wonder FinanceTests";
+			sourceTree = "<group>";
+		};
+		F54E7BF027263C0F0056F7BA /* Eighth Wonder FinanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F54E7BF127263C0F0056F7BA /* Eighth_Wonder_FinanceUITests.swift */,
+				F54E7BF327263C0F0056F7BA /* Eighth_Wonder_FinanceUITestsLaunchTests.swift */,
+			);
+			path = "Eighth Wonder FinanceUITests";
+			sourceTree = "<group>";
+		};
+		FA3DDD020B6C12502B89C911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3030E82E70815B714004BCB7 /* Pods_Eighth_Wonder_Finance.framework */,
+				4CA3C4FCECBC601F07F84FC6 /* Pods_Eighth_Wonder_Finance_Eighth_Wonder_FinanceUITests.framework */,
+				279439FC8274489B27638EB9 /* Pods_Eighth_Wonder_FinanceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54E7BCC27263C080056F7BA /* Eighth Wonder Finance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54E7BF727263C0F0056F7BA /* Build configuration list for PBXNativeTarget "Eighth Wonder Finance" */;
+			buildPhases = (
+				E8A2A88240FD80100E4929FF /* [CP] Check Pods Manifest.lock */,
+				F54E7BC927263C080056F7BA /* Sources */,
+				F54E7BCA27263C080056F7BA /* Frameworks */,
+				F54E7BCB27263C080056F7BA /* Resources */,
+				8ACB4F6473E92F847577D132 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eighth Wonder Finance";
+			productName = "Eighth Wonder Finance";
+			productReference = F54E7BCD27263C080056F7BA /* Eighth Wonder Finance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F54E7BE227263C0F0056F7BA /* Eighth Wonder FinanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54E7BFA27263C0F0056F7BA /* Build configuration list for PBXNativeTarget "Eighth Wonder FinanceTests" */;
+			buildPhases = (
+				55F317436B7D915187AF030B /* [CP] Check Pods Manifest.lock */,
+				F54E7BDF27263C0F0056F7BA /* Sources */,
+				F54E7BE027263C0F0056F7BA /* Frameworks */,
+				F54E7BE127263C0F0056F7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54E7BE527263C0F0056F7BA /* PBXTargetDependency */,
+			);
+			name = "Eighth Wonder FinanceTests";
+			productName = "Eighth Wonder FinanceTests";
+			productReference = F54E7BE327263C0F0056F7BA /* Eighth Wonder FinanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F54E7BEC27263C0F0056F7BA /* Eighth Wonder FinanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54E7BFD27263C0F0056F7BA /* Build configuration list for PBXNativeTarget "Eighth Wonder FinanceUITests" */;
+			buildPhases = (
+				DFF9A47194A8FE38FFF46D74 /* [CP] Check Pods Manifest.lock */,
+				F54E7BE927263C0F0056F7BA /* Sources */,
+				F54E7BEA27263C0F0056F7BA /* Frameworks */,
+				F54E7BEB27263C0F0056F7BA /* Resources */,
+				4784F3D4FA99BFA747A74258 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54E7BEF27263C0F0056F7BA /* PBXTargetDependency */,
+			);
+			name = "Eighth Wonder FinanceUITests";
+			productName = "Eighth Wonder FinanceUITests";
+			productReference = F54E7BED27263C0F0056F7BA /* Eighth Wonder FinanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54E7BC527263C080056F7BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F54E7BCC27263C080056F7BA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F54E7BE227263C0F0056F7BA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F54E7BCC27263C080056F7BA;
+					};
+					F54E7BEC27263C0F0056F7BA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F54E7BCC27263C080056F7BA;
+					};
+				};
+			};
+			buildConfigurationList = F54E7BC827263C080056F7BA /* Build configuration list for PBXProject "Eighth Wonder Finance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54E7BC427263C080056F7BA;
+			productRefGroup = F54E7BCE27263C080056F7BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54E7BCC27263C080056F7BA /* Eighth Wonder Finance */,
+				F54E7BE227263C0F0056F7BA /* Eighth Wonder FinanceTests */,
+				F54E7BEC27263C0F0056F7BA /* Eighth Wonder FinanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54E7BCB27263C080056F7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54E7BDD27263C0E0056F7BA /* LaunchScreen.storyboard in Resources */,
+				F5AA1C83273776510024EECD /* stock_symbols.json in Resources */,
+				F54E7BDA27263C0E0056F7BA /* Assets.xcassets in Resources */,
+				F58243F7273859DB004FC193 /* search.json in Resources */,
+				F54E7BD827263C090056F7BA /* Main.storyboard in Resources */,
+				F5AA1C82273776510024EECD /* stock_names.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54E7BE127263C0F0056F7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54E7BEB27263C0F0056F7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4784F3D4FA99BFA747A74258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55F317436B7D915187AF030B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eighth Wonder FinanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ACB4F6473E92F847577D132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eighth Wonder Finance/Pods-Eighth Wonder Finance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eighth Wonder Finance/Pods-Eighth Wonder Finance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eighth Wonder Finance/Pods-Eighth Wonder Finance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF9A47194A8FE38FFF46D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A2A88240FD80100E4929FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eighth Wonder Finance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54E7BC927263C080056F7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AA1C8527377BEB0024EECD /* SearchViewController.swift in Sources */,
+				900BFA552749AAAD00E50C5B /* PortfolioStockCell.swift in Sources */,
+				F58243F92738603F004FC193 /* PublicClasses.swift in Sources */,
+				F54E7C01272645CD0056F7BA /* LoginViewController.swift in Sources */,
+				F54E7BD127263C080056F7BA /* AppDelegate.swift in Sources */,
+				723744FD272C929100E0043D /* ResearchDetailViewController.swift in Sources */,
+				F54E7BD327263C090056F7BA /* SceneDelegate.swift in Sources */,
+				F54E7C03272645F70056F7BA /* HomeViewController.swift in Sources */,
+				723CFA342729F7E1007D92B1 /* ResearchViewController.swift in Sources */,
+				723CFA362729F86E007D92B1 /* ResearchStockCell.swift in Sources */,
+				F5DC5AEB272A28BA009BA7E8 /* ProfileViewController.swift in Sources */,
+				F5DC5AE9272A27A8009BA7E8 /* TradeViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54E7BDF27263C0F0056F7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54E7BE827263C0F0056F7BA /* Eighth_Wonder_FinanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54E7BE927263C0F0056F7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54E7BF227263C0F0056F7BA /* Eighth_Wonder_FinanceUITests.swift in Sources */,
+				F54E7BF427263C0F0056F7BA /* Eighth_Wonder_FinanceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F54E7BE527263C0F0056F7BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54E7BCC27263C080056F7BA /* Eighth Wonder Finance */;
+			targetProxy = F54E7BE427263C0F0056F7BA /* PBXContainerItemProxy */;
+		};
+		F54E7BEF27263C0F0056F7BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54E7BCC27263C080056F7BA /* Eighth Wonder Finance */;
+			targetProxy = F54E7BEE27263C0F0056F7BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F54E7BD627263C090056F7BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54E7BD727263C090056F7BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F54E7BDB27263C0E0056F7BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54E7BDC27263C0E0056F7BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54E7BF527263C0F0056F7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F54E7BF627263C0F0056F7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54E7BF827263C0F0056F7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EDAE52F7F99ED753E83EB8 /* Pods-Eighth Wonder Finance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4QRR42TWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Eighth Wonder Finance/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Eighth Wonder";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coldbrewonnitrostat.Eighth-Wonder-Finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54E7BF927263C0F0056F7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F3F77AF919C9CAAFD096B5 /* Pods-Eighth Wonder Finance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4QRR42TWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Eighth Wonder Finance/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Eighth Wonder";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coldbrewonnitrostat.Eighth-Wonder-Finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F54E7BFB27263C0F0056F7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9E6F4D7C2B63BA4FBBCAC5 /* Pods-Eighth Wonder FinanceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4QRR42TWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coldbrewonnitrostat.Eighth-Wonder-FinanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eighth Wonder Finance.app/Eighth Wonder Finance";
+			};
+			name = Debug;
+		};
+		F54E7BFC27263C0F0056F7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBA7E2C5E1151EF6A801BA7 /* Pods-Eighth Wonder FinanceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4QRR42TWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coldbrewonnitrostat.Eighth-Wonder-FinanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eighth Wonder Finance.app/Eighth Wonder Finance";
+			};
+			name = Release;
+		};
+		F54E7BFE27263C0F0056F7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67F5D215F3FAF3726BCB12D /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4QRR42TWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coldbrewonnitrostat.Eighth-Wonder-FinanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eighth Wonder Finance";
+			};
+			name = Debug;
+		};
+		F54E7BFF27263C0F0056F7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C018B1E4AB705A711CC1AE /* Pods-Eighth Wonder Finance-Eighth Wonder FinanceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4QRR42TWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coldbrewonnitrostat.Eighth-Wonder-FinanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eighth Wonder Finance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54E7BC827263C080056F7BA /* Build configuration list for PBXProject "Eighth Wonder Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54E7BF527263C0F0056F7BA /* Debug */,
+				F54E7BF627263C0F0056F7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54E7BF727263C0F0056F7BA /* Build configuration list for PBXNativeTarget "Eighth Wonder Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54E7BF827263C0F0056F7BA /* Debug */,
+				F54E7BF927263C0F0056F7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54E7BFA27263C0F0056F7BA /* Build configuration list for PBXNativeTarget "Eighth Wonder FinanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54E7BFB27263C0F0056F7BA /* Debug */,
+				F54E7BFC27263C0F0056F7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54E7BFD27263C0F0056F7BA /* Build configuration list for PBXNativeTarget "Eighth Wonder FinanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54E7BFE27263C0F0056F7BA /* Debug */,
+				F54E7BFF27263C0F0056F7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54E7BC527263C080056F7BA /* Project object */;
+}
